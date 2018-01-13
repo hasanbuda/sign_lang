@@ -9,7 +9,7 @@ First step (train the data set)
 in the terminal we write 
 python3 train.py \
   --bottleneck_dir=logs/bottlenecks \
-  --how_many_training_steps=2000 \
+  --how_many_training_steps=number of steps \
   --summaries_dir=logs/training_summaries/basic \
   --output_graph=logs/trained_graph.pb \
   --output_labels=logs/trained_labels.txt \
@@ -56,3 +56,8 @@ j (score = 0.00271)
 you will find the data and trained lables 
 *** the network was tested in other images but did't give such an accuert result so 
 I guess it need more data and training 
+
+dataset and log file is on google drive 
+
+https://drive.google.com/drive/folders/1IS1diSWGi-x5HG_u6GAtuXXdo4RvJhVp?usp=sharing
+https://drive.google.com/drive/folders/1YtUjZcl2lfLdLITfEWM87XEGcjbX2zUC?usp=sharing
